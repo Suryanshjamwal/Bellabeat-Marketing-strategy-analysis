@@ -26,13 +26,13 @@ Bellabeat’s cofounder and Chief Creative Officer, Urška Sršen wishes to gain
 	
 ## Technologies
 
-Markup : * Python 3 - using pandas and numpy
-            * Data Cleaning 
-            * Data Transformation
-         * SQL - using BigQuery
-            * Data querying
-         * Tableau 
-            * Data visualisation
+* Python 3 - using pandas and numpy
+    * Data Cleaning 
+    * Data Transformation
+* SQL - using BigQuery
+    * Data querying
+* Tableau 
+    * Data visualisation
 
 ```
 $ cd ../lorem
