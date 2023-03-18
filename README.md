@@ -1,15 +1,17 @@
-# Bellabeat Marketing strategy analysis
-## Case Study 
- Key takewaways from the analysis of competition brand
+# Bellabeat Marketing strategy - Case Study
+
+This case study focuses on developing a marketing strategy for one of the renowned fitness and wellness brands, Bellabeat.
+![My Image1](images/girl.jpg)
+![My Image2](images/leaf.jpg)
 
  ## Table of contents
-* [Company's problem statement](#company)
-* [Motivation for Analysis](#motication)
+* [Mission statement](#company)
+* [Motivation for Analysis](#motivation)
 * [Technologies](#tech)
 * [Analysis Report](#report)
 * [Summary of Analysis](#summary)
 
-## Company's problem statement
+## Mission statement
 Put problem statement
 	
 ## Motivation for Analysis
