@@ -6,7 +6,7 @@ This case study focuses on providing high-level marketing recommendations for on
 
 Bellabeat encourages women to rediscover their inner strength, tap into it, and become who they were meant to be. Giving women the tools to live in harmony with themselves is their main goal. Their selected product range includes, but not limited to, fitness tracking wristbands, pendants, yoga mats and a user-friendly app.
 
-<table>
+<table align = "center">
   <tr>
     <td><img src="images/girl.png" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="200" height="250" />
     <td><img src="images/leaf.png" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="200" height="200" />
@@ -47,7 +47,7 @@ High-level recommendations for effective marketing strategies will be provided t
 
 * Bellabeat marketing analytics team.
 
-### Prepare phase
+### <ins> Prepare phase </ins>
 
 #### Identifying dataset organisation
 
@@ -83,14 +83,9 @@ RENAME COLUMN Activitydate TO ActivityDay;
 
 * For a high-level analysis, we shall only focus on the daily and hourly trends, not a deep-level performance tracking minute-by-minute analysis.
 
-* After thorough comparison, we find that the datasets 'dailyCalories_merged', 'dailyIntensities_merged' and 'dailySteps_merged' are all subsets of the dataset 'dailyActivity_merged'. For the analysis, using 'dailyActivity_merged' is sufficient. More on these findings can be found in this [sql file](SQL_script.sql).
+* After thorough comparison, turns out the datasets 'dailyCalories_merged', 'dailyIntensities_merged' and 'dailySteps_merged' are all subsets of the dataset 'dailyActivity_merged'. For the analysis, using 'dailyActivity_merged' is sufficient. More on these findings can be found in this [sql file](SQL_script.sql).
 
-* 
-
-
-
-
-#### Data cleaning and transformation
+#### Data cleaning 
 
 
 
