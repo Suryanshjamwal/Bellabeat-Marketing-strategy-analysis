@@ -2,17 +2,9 @@
 
 This case study focuses on providing high-level recommendations for one the renowned fitness and wellness brands, Bellabeat.
 
-## Table of contents
-
-- [About the company](#company)
-- [Motivation for Analysis](#motivation)
-- [Technologies](#tech)
-- [Analysis Report](#report)
-- [Summary of Analysis](#summary)
-
 ## About the company 
 
-Bellabeat encourages women to rediscover their inner strength, tap into it, and become who they were meant to be. Giving women the tools to live in harmony with themselves is their main goal. Their selected product range includes, but not limited to, fitness tracking wristbands, pendants and yoga mats.
+Bellabeat encourages women to rediscover their inner strength, tap into it, and become who they were meant to be. Giving women the tools to live in harmony with themselves is their main goal. Their selected product range includes, but not limited to, fitness tracking wristbands, pendants, yoga mats and a user-friendly app.
 
 <table>
   <tr>
