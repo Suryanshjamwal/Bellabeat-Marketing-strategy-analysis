@@ -31,7 +31,7 @@ FitBit Fitness Tracker Data : https://www.kaggle.com/arashnic/fitbit
 
 ## Analysis Process
 
-### Ask phase
+### <ins> Ask phase </ins>
 
 #### Business Task
 
@@ -83,7 +83,7 @@ RENAME COLUMN Activitydate TO ActivityDay;
 
 * For a high-level analysis, we shall only focus on the daily and hourly trends, not a deep-level performance tracking minute-by-minute analysis.
 
-* After thorough comparison, we find that the datasets 'dailyCalories_merged', 'dailyIntensities_merged' and 'dailySteps_merged' are all subsets of the dataset 'dailyActivity_merged'. For the analysis, using 'dailyActivity_merged' is sufficient. More on these findings can be found in the sql file: [this sql](SQL_script.sql)
+* After thorough comparison, we find that the datasets 'dailyCalories_merged', 'dailyIntensities_merged' and 'dailySteps_merged' are all subsets of the dataset 'dailyActivity_merged'. For the analysis, using 'dailyActivity_merged' is sufficient. More on these findings can be found in this [sql file](SQL_script.sql).
 
 * 
 
