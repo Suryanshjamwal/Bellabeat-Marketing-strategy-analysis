@@ -49,28 +49,32 @@ High-level recommendations for effective marketing strategies will be provided t
 
 ### Prepare phase
 
-#### Identifying data organisation
+#### Identifying dataset organisation
 
 The dataset used here includes 18 CSV file. According to the dataset, 33 users' multi-level data has been recorded on a daily, hourly and minute basis on their physical activity, heartrate, sleep cycles and weight tracking. 
 
 To query about the data structure, we use sql queries as you can never go wrong with identifying the dataset structure with SQL!
 
-Key descriptors:
-* Each table has an ID header having values depicting individual users.
+Key descriptors, assumptions and limitations:
+
+* Each table has an ID header having values depicting individual users. Using the following sql command on each table:
 ```
 SELECT  DISTINCT ID  FROM `dailyActivity_merged` 
 ```
-* Data recorded for 31 days from 12th April 2016 to 12th May, 2016.
+* Data recorded for 31 days from 12th April, 2016 to 12th May, 2016. Using the following sql command on each table:
 ```
 SELECT  DISTINCT ActivityDay  FROM `dailyCalories_merged`
- SELECT  DISTINCT ActivityDate  FROM `dailyActivity_merged`
+SELECT  DISTINCT ActivityDate  FROM `dailyActivity_merged`
 ```
 Note: Column names need transformation 
+* The data is from 2016. The pandemic has certainly affected peoples' lifestyles drastically. An updated version of the dataset would be better to provide insights.
+* The dataset doesn't include the users demographics such as age and sex. Bellabeats' target audience is women and this proves to be a limitation about the dataset.
 
-* 
-#### Sort and filter data
+#### Sort, filter, transform and merging data
 
 For a high-level analysis, we shall only focus on the daily and hourly trends, not a deep-level performance tracking minute-by-minute analysis.
+
+
 
 #### Data cleaning and transformation
 
