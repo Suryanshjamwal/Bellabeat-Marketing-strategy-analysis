@@ -2,8 +2,8 @@
 
 This case study focuses on developing a marketing strategy for one of the renowned fitness and wellness brands, Bellabeat.
 
-![My Image1](images/girl.png)
-![My Image2](images/leaf.png)
+![My Image1](images/girl.png = 200 x 250)
+![My Image2](images/leaf.png = 200 x 200)
 
  ## Table of contents
 * [Mission statement](#company)
