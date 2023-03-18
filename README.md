@@ -47,6 +47,26 @@ High-level recommendations for effective marketing strategies will be provided t
 
 * Bellabeat marketing analytics team.
 
+### Prepare phase
+
+#### Identifying data organisation
+
+The dataset used here includes 18 CSV file. According to the dataset, 33 users' multi-level data has been recorded on a daily, hourly and minute basis on their physical activity, heartrate, sleep cycles and weight tracking. 
+
+To query about the data structure, we use sql queries as you can never go wrong with identifying the dataset structure with SQL!
+
+
+
+#### Sort and filter data
+
+For a high-level analysis, we shall only focus on the daily and hourly trends, not a deep-level performance tracking minute-by-minute analysis.
+
+#### Data cleaning and transformation
+
+
+
+
+
 ## Summary of Analysis
 Recommendations
 
