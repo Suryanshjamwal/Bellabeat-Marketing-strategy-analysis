@@ -1,6 +1,6 @@
 # Bellabeat Marketing strategy - Case Study
 
-This case study focuses on providing high-level recommendations for one the renowned fitness and wellness brands, Bellabeat.
+This case study focuses on providing high-level marketing recommendations for one of the renowned fitness and wellness brands, Bellabeat.
 
 ## About the company 
 
@@ -58,21 +58,35 @@ To query about the data structure, we use sql queries as you can never go wrong 
 Key descriptors, assumptions and limitations:
 
 * Each table has an ID header having values depicting individual users. Using the following sql command on each table:
+
 ```
 SELECT  DISTINCT ID  FROM `dailyActivity_merged` 
 ```
+
 * Data recorded for 31 days from 12th April, 2016 to 12th May, 2016. Using the following sql command on each table:
+
 ```
 SELECT  DISTINCT ActivityDay  FROM `dailyCalories_merged`
 SELECT  DISTINCT ActivityDate  FROM `dailyActivity_merged`
 ```
-Note: Column names need transformation 
+
+```
+ALTER TABLE 'dailyActivity_merged`
+RENAME COLUMN Activitydate TO ActivityDay;
+```
+
 * The data is from 2016. The pandemic has certainly affected peoples' lifestyles drastically. An updated version of the dataset would be better to provide insights.
+
 * The dataset doesn't include the users demographics such as age and sex. Bellabeats' target audience is women and this proves to be a limitation about the dataset.
 
 #### Sort, filter, transform and merging data
 
-For a high-level analysis, we shall only focus on the daily and hourly trends, not a deep-level performance tracking minute-by-minute analysis.
+* For a high-level analysis, we shall only focus on the daily and hourly trends, not a deep-level performance tracking minute-by-minute analysis.
+
+* After thorough comparison, we find that the datasets 'dailyCalories_merged', 'dailyIntensities_merged' and 'dailySteps_merged' are all subsets of the dataset 'dailyActivity_merged'. For the analysis, using 'dailyActivity_merged' is sufficient. More on these findings can be found in the sql file: [this sql](SQL_script.sql)
+
+* 
+
 
 
 
