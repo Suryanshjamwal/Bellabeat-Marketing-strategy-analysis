@@ -15,6 +15,9 @@ Bellabeat encourages women to rediscover their inner strength, tap into it, and 
 ## Motivation for Analysis
 
 Bellabeat’s cofounder and Chief Creative Officer, Urška Sršen wishes to gain insight about how users interact with their smart devices. She believes that examining fitness data from smart devices could help the business find new growth prospects. By focusing on one of the company's product, this case study shall provide a clear, insightful analysis of smart device users' daily habits using a public dataset.
+
+For the analysis we use the following dataset: 
+FitBit Fitness Tracker Data : https://www.kaggle.com/arashnic/fitbit
 	
 ## Technologies
 
@@ -26,9 +29,23 @@ Bellabeat’s cofounder and Chief Creative Officer, Urška Sršen wishes to gain
 * Tableau 
     * Data visualisation
 
-## Analysis Report
-Reporting with visuals
-(High level)
+## Analysis Process
+
+### Ask phase
+
+#### Business Task
+
+Using the smart device data, we get an insight on how data fetched from the consumers essentially informs about their usage and lifestyle. This is vital for developing a sense about what marketing strategies would help focus on certain aspects of the app to foster healthy practices for the overall well-being of the end user.
+
+High-level recommendations for effective marketing strategies will be provided to the stakeholders in the form of interactive visuals and conclusions.
+
+#### Key Stakeholders
+
+* Urška Sršen: cofounder and Chief Creative Officer.
+
+* Sando Mur: cofounder and a key member of the Bellabeat executive team.
+
+* Bellabeat marketing analytics team.
 
 ## Summary of Analysis
 Recommendations
