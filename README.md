@@ -1,4 +1,5 @@
 # Bellabeat Marketing strategy analysis
+## Case Study 
  Key takewaways from the analysis of competition brand
 
  ## Table of contents
