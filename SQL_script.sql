@@ -81,6 +81,10 @@ Row	f0_
 
 */
 
+-- Clearly the datasets 'dailyCalories_merged', 'dailyIntensities_merged' and 'dailysteps_merged' are all subsets of 'dailyActivity_merged'.
+
+
+
 
 
 

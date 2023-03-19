@@ -73,6 +73,11 @@ Row	f0_
 ```
 SELECT  COUNT(DISTINCT ActivityDate)  FROM `dailyActivity_merged`
 
+O/P:
+
+Row	f0_
+1	31
+
 ```
 
 * The data is from 2016. The pandemic has certainly affected peoples' lifestyles drastically. An updated version of the dataset would be better to provide insights.
@@ -89,7 +94,7 @@ SELECT  COUNT(DISTINCT ActivityDate)  FROM `dailyActivity_merged`
 
 #### Data transformation and cleaning
 
-Using pandas and numpy, this process can be found here: [py file]()
+Using pandas and numpy, this process can be found here: [ipynb file]()
 
 
 
