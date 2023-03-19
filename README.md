@@ -60,32 +60,37 @@ Key descriptors, assumptions and limitations:
 * Each table has an ID header having values depicting individual users. Using the following sql command on each table:
 
 ```
-SELECT  DISTINCT ID  FROM `dailyActivity_merged` 
+SELECT  COUNT(DISTINCT ID)  FROM `dailyActivity_merged` 
+
+O/P:
+Row	f0_
+1	33
+
 ```
 
 * Data recorded for 31 days from 12th April, 2016 to 12th May, 2016. Using the following sql command on each table:
 
 ```
-SELECT  DISTINCT ActivityDay  FROM `dailyCalories_merged`
-SELECT  DISTINCT ActivityDate  FROM `dailyActivity_merged`
-```
+SELECT  COUNT(DISTINCT ActivityDate)  FROM `dailyActivity_merged`
 
-```
-ALTER TABLE 'dailyActivity_merged`
-RENAME COLUMN Activitydate TO ActivityDay;
 ```
 
 * The data is from 2016. The pandemic has certainly affected peoples' lifestyles drastically. An updated version of the dataset would be better to provide insights.
 
-* The dataset doesn't include the users demographics such as age and sex. Bellabeats' target audience is women and this proves to be a limitation about the dataset.
+* The dataset doesn't include the users demographics such as age and sex. Bellabeats' target audience is females and this poses as a limitation about the dataset.
 
-#### Sort, filter, transform and merging data
+#### Filtering Data
 
 * For a high-level analysis, we shall only focus on the daily and hourly trends, not a deep-level performance tracking minute-by-minute analysis.
 
 * After thorough comparison, turns out the datasets 'dailyCalories_merged', 'dailyIntensities_merged' and 'dailySteps_merged' are all subsets of the dataset 'dailyActivity_merged'. For the analysis, using 'dailyActivity_merged' is sufficient. More on these findings can be found in this [sql file](SQL_script.sql).
 
-#### Data cleaning 
+### <ins> Process Phase </ins>
+
+#### Data transformation and cleaning
+
+Using pandas and numpy, this process can be found here: [py file]()
+
 
 
 

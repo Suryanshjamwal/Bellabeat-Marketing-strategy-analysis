@@ -1,4 +1,6 @@
 -- checking for distinct values
+-- Inplace of `corded-sunlight-374118.dailyAct.Act` use table name `dailyActivity_merged`
+-- Do the same for all table names
 
 SELECT DISTINCT Id FROM `corded-sunlight-374118.dailyAct.Act`;
 
@@ -8,7 +10,9 @@ SELECT DISTINCT Id FROM `corded-sunlight-374118.dailyAct.Int`;
 
 SELECT DISTINCT Id FROM `corded-sunlight-374118.dailyAct.Steps`;
 
--- results after querying declare all users are present in the above tables
+SELECT DISTINCT Id FROM `corded-sunlight-374118.dailyAct.hSteps`;
+
+-- results after querying declare all 33 users are present in the above tables
 
 /* 
 Unable to parse sleep and weight info data due to inconsistent date and time formatting
@@ -76,6 +80,10 @@ Row	f0_
 1	940
 
 */
+
+
+
+
 
 
 
