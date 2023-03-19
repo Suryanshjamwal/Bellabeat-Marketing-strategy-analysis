@@ -96,13 +96,28 @@ Row	f0_
 
 Using pandas and numpy, this process can be found here: [ipynb file]()
 
+Key Takeaways:
+* Average(Mean) Sedentry minutes is 991.2 minutes or 16.5 hours/day! That's almost close to 70% of a day.
 
+* Most users are lightly active users.
 
+* Average total steps per day is 7637. Recommended total steps is 10,000 according to CDC.
 
+* Average sleep hours is 7 Hours.
 
+## Visualisations
 
-## Summary of Analysis
-Recommendations
+Using Tableau Public to visualise our datasets. 
+
+### Total Steps vs Calories
+
+Quite obvious that more Active the users are, more calories they burn.
+
+### Total time in Bed vs Total Minutes Asleep
+
+Total Minutes Asleep and Total Hours in Bed appear to be linearly related. So, we should think about employing notification to go to sleep if Bellabeat users want to improve their sleep.
+
+### 
 
 
 
