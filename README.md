@@ -130,6 +130,11 @@ Using Tableau Public to visualise our datasets.
 
 ### Average Steps vs Hour of the day
 
+<table align = "center">
+  <tr>
+    <td><img src="images/Sheet 3.png" width="688" height="400" />
+ </table>
+
 * Most users are active from 5 pm to 7 pm. We can encourage lightly active people to be more active during that time interval.
 
 
