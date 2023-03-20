@@ -115,7 +115,7 @@ Using Tableau Public to visualise our datasets.
 
 <table align = "center">
   <tr>
-    <td><img src="images/sheet1.png" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="688" height="400" />
+    <td><img src="images/Sheet 1.png" width="688" height="400" />
  </table>
 * Quite obvious that more Active the users are, more calories they burn.
 
