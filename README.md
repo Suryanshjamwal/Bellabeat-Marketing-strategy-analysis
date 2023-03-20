@@ -175,7 +175,7 @@ Using Tableau Public to visualise our datasets.
 
 <table align = "center">
   <tr>
-    <td><img src="images/Sheet 7.png" width="350" height="462" />
+    <td><img src="images/Sheet 7.png" width="462" height="348" />
 </table>
 
 * App usage has declined on average at the end of the 31 day interval. Users tend to not wear the tracker after a period of time.
