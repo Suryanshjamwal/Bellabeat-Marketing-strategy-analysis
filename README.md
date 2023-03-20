@@ -109,15 +109,20 @@ Key Takeaways:
 
 Using Tableau Public to visualise our datasets. 
 
+[Dashboard](https://public.tableau.com/views/CaseStudyBellabeat_16792758135870/Dashboard2?:language=en-US&:display_count=n&:origin=viz_share_link)
+
 ### Total Steps vs Calories
 
-Quite obvious that more Active the users are, more calories they burn.
+* Quite obvious that more Active the users are, more calories they burn.
 
 ### Total time in Bed vs Total Minutes Asleep
 
-Total Minutes Asleep and Total Hours in Bed appear to be linearly related. So, we should think about employing notification to go to sleep if Bellabeat users want to improve their sleep.
+* Total Minutes Asleep and Total Hours in Bed appear to be linearly related. So, the app should notify to go to sleep if Bellabeat users want to improve their sleep.
 
-### 
+### Average Steps vs Hour of the day
+
+* Most users are active from 5 pm to 7 pm. We can encourage lightly active people to be more active during that time interval.
+
 
 
 
