@@ -105,7 +105,7 @@ Key Takeaways:
 
 * Average sleep hours is 7 Hours.
 
-### Share Phase
+### <ins> Share Phase </ins>
 
 Using Tableau Public to visualise our datasets. 
 
@@ -182,7 +182,35 @@ Using Tableau Public to visualise our datasets.
 * App usage has declined on average at the end of the 31 day interval. Users tend to not wear the tracker after a period of time.
 
 
-### Act Phase
+### <ins> Act Phase </ins>
 
-#### Key Takeaways to consider: 
-* 
+#### Key Takeaways to consider
+
+* Users typically walk 7,637 steps per day, which is less than the 10,000 steps per day that the CDC advises. Users are sedentary/inactive for 70% of each day.
+
+* The very active type sleeps the least whereas, the lightly active type sleeps the longest.
+
+* 5pm - 7pm on average tends to be the most active time for most users.
+
+* Users tend to wear the tracking devices the most for two weeks in a one month interval. Th usage decreases after the two week mark.
+
+#### Recommendations for marketing
+
+* Average sendentary time, as analysed, is too high (in the ballpark of 16-17 hours). The marketers must discover target oriented strategies to encourage clients to walk more by tracking their daily steps. These could include regular after-office-hours (5-7pm) alerts and target-oriented demographic statistical health goals.
+
+* According to the dataset, an average person takes 7637 total steps every day, which is a touch too low considering daily Centers for Disease Control and Prevention/CDC (USA) recommendation of 10k steps a day. CDC discovered that walking 8,000 steps per day reduced the chance of death from all causes by 51%. A 65% decreased risk was linked to 12,000 steps per day compared to 4,000 steps per day. Bellabeat can persuade them to take at least 8,000 by highlighting the advantages to staying active for their overall health benefit.
+
+* Controlling daily calorie intake is the best suggestion for people who want to lose weight. For daily meals, Bellabeat can offer some low-calorie recipe suggestions.
+
+* As discovered that the more active a user is, the lower the sleep quality tends to be. The marketing team can emphasize on sleep alerts to the users having poor sleep patterns and vice versa. Optimal sleep hours for adults is 7 hours. Reducing sedentary times can also help with sleep quality.
+
+* Bellabeat trackers may be more likely to be worn all day and night if they promote product design and qualities like light weight, long lasting batteries, water resistance etc.
+
+This concludes our findings and few recommendations for our client Bellabeat.
+
+
+
+
+
+
+
