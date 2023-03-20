@@ -121,6 +121,11 @@ Using Tableau Public to visualise our datasets.
 
 ### Total time in Bed vs Total Minutes Asleep
 
+<table align = "center">
+  <tr>
+    <td><img src="images/Sheet 2.png" width="688" height="400" />
+ </table>
+
 * Total Minutes Asleep and Total Hours in Bed appear to be linearly related. So, the app should notify to go to sleep if Bellabeat users want to improve their sleep.
 
 ### Average Steps vs Hour of the day
