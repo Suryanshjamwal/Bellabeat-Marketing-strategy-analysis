@@ -116,7 +116,7 @@ Using Tableau Public to visualise our datasets.
 <table align = "center">
   <tr>
     <td><img src="images/Sheet 1.png" width="688" height="400" />
- </table>
+</table>
 * Quite obvious that more Active the users are, more calories they burn.
 
 ### Total time in Bed vs Total Minutes Asleep
@@ -124,7 +124,7 @@ Using Tableau Public to visualise our datasets.
 <table align = "center">
   <tr>
     <td><img src="images/Sheet 2.png" width="688" height="400" />
- </table>
+</table>
 
 * Total Minutes Asleep and Total Hours in Bed appear to be linearly related. So, the app should notify to go to sleep if Bellabeat users want to improve their sleep.
 
@@ -133,10 +133,41 @@ Using Tableau Public to visualise our datasets.
 <table align = "center">
   <tr>
     <td><img src="images/Sheet 3.png" width="688" height="400" />
- </table>
+</table>
 
-* Most users are active from 5 pm to 7 pm. We can encourage lightly active people to be more active during that time interval.
+* Most users are active from 5 pm to 7 pm. We can encourage and notify users to be active or go for a run during those hours!
+
+### Total Minutes Asleep vs Sedentary Minutes
+
+<table align = "center">
+  <tr>
+    <td><img src="images/Sheet 4.png" width="688" height="400" />
+</table>
+
+* Clearly a negative relation between the two metrics. The app itself can notify and recommend users to minimize sedentary minutes.
+
+### User type vs Calories
+
+* We classify user type as:
+1. avg_daily_steps < 5000 then "sedentary",
+2. 7500 < avg_daily_steps >= 5000 then "lightly active",
+3. 10000 < avg_daily_steps >= 7500 then "fairly active",
+4. avg_daily_steps >= 10000 then "very active".
+
+<table align = "center">
+  <tr>
+    <td><img src="images/Sheet 5.png" width="450" height="535" />
+</table>
+
+* Clearly, Very active users tend to burn most amount of calories with lower hinge calories burnt < 2000. What that essentially implies is that the very active users tend to burn more than the average daily calories burnt overall compared to the other types. This assumption is indeed a fair proposition.
+
+### User type vs Sleep Quality
+
+<table align = "center">
+  <tr>
+    <td><img src="images/Sheet 6.png" width="450" height="535" />
+</table>
 
 
-
+* Interestingly, total minutes asleep turns out to be inversely propostional to activity level. However, most very and fairly active users tend to have a quality sleep pattern.
 
