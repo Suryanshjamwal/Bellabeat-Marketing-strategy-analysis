@@ -171,3 +171,12 @@ Using Tableau Public to visualise our datasets.
 
 * Interestingly, total minutes asleep turns out to be inversely propostional to activity level. However, most very and fairly active users tend to have a quality sleep pattern.
 
+### Usage of App
+
+<table align = "center">
+  <tr>
+    <td><img src="images/Sheet 7.png" width="350" height="462" />
+</table>
+
+* App usage has declined on average at the end of the 31 day interval. Users tend to not wear the tracker after a period of time.
+
