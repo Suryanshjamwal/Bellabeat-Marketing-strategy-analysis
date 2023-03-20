@@ -8,8 +8,8 @@ Bellabeat encourages women to rediscover their inner strength, tap into it, and 
 
 <table align = "center">
   <tr>
-    <td><img src="images/girl.png" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="200" height="250" />
-    <td><img src="images/leaf.png" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="200" height="200" />
+    <td><img src="images/girl.png"  width="200" height="250" />
+    <td><img src="images/leaf.png"  width="200" height="200" />
  </table>
 
 ## Motivation for Analysis
@@ -105,7 +105,7 @@ Key Takeaways:
 
 * Average sleep hours is 7 Hours.
 
-## Visualisations
+## Visualisations/Share Phase
 
 Using Tableau Public to visualise our datasets. 
 
@@ -113,6 +113,10 @@ Using Tableau Public to visualise our datasets.
 
 ### Total Steps vs Calories
 
+<table align = "center">
+  <tr>
+    <td><img src="images/girl.png" data-canonical-src="https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png" width="200" height="250" />
+ </table>
 * Quite obvious that more Active the users are, more calories they burn.
 
 ### Total time in Bed vs Total Minutes Asleep
