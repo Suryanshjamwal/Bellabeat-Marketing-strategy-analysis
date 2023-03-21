@@ -1,6 +1,6 @@
 # Bellabeat Marketing strategy - Case Study
 
-This case study focuses on providing high-level marketing recommendations for one of the renowned fitness and wellness brands, Bellabeat.
+This case study focuses on providing high-level marketing recommendations for one of the renowned fitness and wellness brands, Bellabeat. 
 
 ## About the company 
 
@@ -94,20 +94,20 @@ Row	f0_
 
 #### Data transformation and cleaning
 
-Using pandas and numpy, this process can be found here: [ipynb file]()
+Using pandas and numpy, this process can be found here: [ipynb file](DataClean.ipynb)
 
 Key Takeaways:
 * Average(Mean) Sedentry minutes is 991.2 minutes or 16.5 hours/day! That's almost close to 70% of a day.
 
 * Most users are lightly active users.
 
-* Average total steps per day is 7637. Recommended total steps is 10,000 according to CDC.
+* Average total steps per day is 7637. Recommended total steps is 10,000 according to Centers for Disease Control and Prevention (CDC).
 
 * Average sleep hours is 7 Hours.
 
 ### <ins> Share Phase </ins>
 
-Using Tableau Public to visualise our datasets. 
+Using Tableau to visualise our datasets. 
 
 [Dashboard](https://public.tableau.com/views/CaseStudyBellabeat_16792758135870/Dashboard2?:language=en-US&:display_count=n&:origin=viz_share_link)
 
@@ -170,7 +170,7 @@ Using Tableau Public to visualise our datasets.
 </table>
 
 
-* Interestingly, total minutes asleep turns out to be inversely propostional to activity level. However, most very and fairly active users tend to have a quality sleep pattern.
+* Interestingly, total minutes asleep turns out to be inversely propostional to activity level. However, most fairly active users tend to have a quality sleep pattern.
 
 #### App Usage
 
